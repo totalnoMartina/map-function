@@ -52,3 +52,18 @@
 
   const studentsWithIds = students.map(students => [students.name, students.id, ]);
   console.log(studentsWithIds);
+
+  const studentsProffesion = students.map(students => [students.name, students.profession]);
+
+  console.log(studentsProffesion);
+
+  // Add students age as a parameter
+  const studentsAgeAdded = students.map(i => {
+      i.age = 25;
+      return i;
+  });
+
+  // did it thanks for stackoverflow and the guy Vladimir !! Yuppiyeee
+  // if only i could put different ages...
+
+  console.log(studentsAgeAdded);
